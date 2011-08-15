@@ -1,0 +1,52 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {
+                changeElementContentColor = id; 
+                changeElementContentFont = id; 
+                changeElementTagColor = id; 
+                changeElementTagFont = id; 
+                changeNewEmptyDoc = id; 
+                restoreElementDefaults = id; 
+            }; 
+            CLASS = PreferencesController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                elementContentBackgroundColorEnabled = NSButton; 
+                elementContentBackgroundColorWell = NSColorWell; 
+                elementContentFontTextField = NSTextField; 
+                elementContentForegroundColorWell = NSColorWell; 
+                elementTableView = NSTableView; 
+                elementTagBackgroundColorWell = NSColorWell; 
+                elementTagFontTextField = NSTextField; 
+                elementTagForegroundColorWell = NSColorWell; 
+                elementView = NSView; 
+                generalView = NSView; 
+                newEmptyDocEnabled = NSButton; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {CLASS = PreferencesTagColumn; LANGUAGE = ObjC; SUPERCLASS = NSTableColumn; }, 
+        {
+            ACTIONS = {displayPreferencePane = id; }; 
+            CLASS = PreferencesToolbarController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                elementView = NSView; 
+                emptyView = NSView; 
+                generalView = NSView; 
+                window = NSWindow; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {displayPreferencePane = id; }; 
+            CLASS = ToolbarController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {window = NSWindow; }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}

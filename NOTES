@@ -1,0 +1,26 @@
+Punch List
+ - need to get back to where I was with the older interface
+ - 
+
+SHORT TERM:
+- spell check default
+- tagging selected text (context menu?)
+- create entity
+- collapse/expand nodes
+- cancel tag editing
+- list required elements of node
+- auto indenting/node cycle (tab control) general preference
+- attribute editing
+- new document (tags, etc)
+- search replace
+- outline
+- validate nodes as they are edited (xmlValidateElement). spin thread to do it in background
+- entity sidebar
+- speed on autocomplete scrolling?
+
+LONG TERM:
+- DTD catalogs
+- backup copy
+- version control
+- includes
+- built-int calculator/spreadsheet :)

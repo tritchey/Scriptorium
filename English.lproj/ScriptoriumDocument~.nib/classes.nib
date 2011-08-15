@@ -1,0 +1,159 @@
+{
+    IBClasses = (
+        {CLASS = AttributeCell; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = AttributeController; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = AutoCompleteController; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = AutoCompleteView; LANGUAGE = ObjC; SUPERCLASS = NSView; }, 
+        {CLASS = AutoCompleteWindow; LANGUAGE = ObjC; SUPERCLASS = NSWindow; }, 
+        {CLASS = CatalogController; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            CLASS = CommandLineController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {commandLine = NSTextField; }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = ElementTagView; LANGUAGE = ObjC; SUPERCLASS = NSControl; }, 
+        {CLASS = EntityViewController; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = MyDocument; LANGUAGE = ObjC; SUPERCLASS = NSDocument; }, 
+        {CLASS = NSObject; LANGUAGE = ObjC; }, 
+        {
+            CLASS = OutlineController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                document = ScriptoriumDocument; 
+                outlineView = NSOutlineView; 
+                viewController = ScriptoriumViewController; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = OutlineNode; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {
+                changeSyntaxHighlightingColor = id; 
+                changeSyntaxHighlightingEnabled = id; 
+                changeSyntaxHighlightingFont = id; 
+                changeSyntaxHighlightingRestoreDefaults = id; 
+                changeTagsColor = id; 
+            }; 
+            CLASS = PreferencesController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                commentBackgroundColor = NSColorWell; 
+                commentForegroundColor = NSColorWell; 
+                commentTagView = ElementTagView; 
+                elementBackgroundColor = NSColorWell; 
+                elementForegroundColor = NSColorWell; 
+                elementTagView = ElementTagView; 
+                entityBackgroundColor = NSColorWell; 
+                entityForegroundColor = NSColorWell; 
+                entityTagView = ElementTagView; 
+                formattingView = NSView; 
+                syntaxHighlightingBackgroundColorEnabled = NSButton; 
+                syntaxHighlightingBackgroundColorWell = NSColorWell; 
+                syntaxHighlightingEnabledCheckBox = NSButton; 
+                syntaxHighlightingFontTextField = NSTextField; 
+                syntaxHighlightingForegroundColorWell = NSColorWell; 
+                syntaxHighlightingTableView = NSTableView; 
+                syntaxHighlightingView = NSView; 
+                tagsView = NSView; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {
+            ACTIONS = {displayPreferencePane = id; }; 
+            CLASS = PreferencesToolbarController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                emptyView = NSView; 
+                formattingView = NSView; 
+                syntaxHighlightingView = NSView; 
+                tagsView = NSView; 
+                window = NSWindow; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            CLASS = RRToolbarController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {document = ScriptoriumDocument; outlineDrawer = NSDrawer; window = NSWindow; }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {wordCount = id; }; 
+            CLASS = ScriptoriumDocument; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                commandLineController = CommandLineController; 
+                documentViewController = ScriptoriumViewController; 
+                outlineController = OutlineController; 
+                textViewController = XMLTextViewController; 
+                toolbarController = ToolbarController; 
+            }; 
+            SUPERCLASS = NSDocument; 
+        }, 
+        {CLASS = ScriptoriumTextView; LANGUAGE = ObjC; SUPERCLASS = NSTextView; }, 
+        {
+            CLASS = ScriptoriumViewController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                commandLineField = NSTextField; 
+                document = ScriptoriumDocument; 
+                progressIndicator = NSProgressIndicator; 
+                statusBarField = NSTextField; 
+                toolbarController = ToolbarController; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {expandEntities = id; }; 
+            CLASS = TextViewController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                attributeController = AttributeController; 
+                autoCompleteWindow = AutoCompleteWindow; 
+                document = ScriptoriumDocument; 
+                textView = NSTextView; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {startProgressAnimation = id; stopProgressAnimation = id; }; 
+            CLASS = ToolbarController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                document = ScriptoriumDocument; 
+                outlineDrawer = NSDrawer; 
+                progressIndicator = NSProgressIndicator; 
+                statusTextField = NSTextField; 
+                statusView = NSView; 
+                window = NSWindow; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = XMLAttribute; LANGUAGE = ObjC; SUPERCLASS = XMLNode; }, 
+        {CLASS = XMLDoc; LANGUAGE = ObjC; SUPERCLASS = XMLNode; }, 
+        {CLASS = XMLDtd; LANGUAGE = ObjC; SUPERCLASS = XMLNode; }, 
+        {CLASS = XMLNode; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            CLASS = XMLParser; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {delegate = id; }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {expandEntities = id; }; 
+            CLASS = XMLTextView; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {controller = XMLTextViewController; }; 
+            SUPERCLASS = NSTextView; 
+        }, 
+        {
+            CLASS = XMLTextViewController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {document = ScriptoriumDocument; xmlTextView = XMLTextView; }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}

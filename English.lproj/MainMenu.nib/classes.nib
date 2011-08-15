@@ -1,0 +1,29 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {enableCoreDumps = id; showPreferencePanel = id; }; 
+            CLASS = AppController; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {
+                enableCoreDumps = id; 
+                expandEntities = id; 
+                setPreferences = id; 
+                wordCount = id; 
+            }; 
+            CLASS = FirstResponder; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {changeSyntaxHighlightingColor = id; changeSyntaxHighlightingEnabled = id; }; 
+            CLASS = PreferencesController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {formattingView = NSView; syntaxHighlightingView = NSView; }; 
+            SUPERCLASS = NSWindowController; 
+        }
+    ); 
+    IBVersion = 1; 
+}

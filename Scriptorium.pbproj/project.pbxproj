@@ -1,0 +1,2992 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 39;
+	objects = {
+		080E96D9FE201CDB7F000001 = {
+			fileRef = 2A37F4B9FDCFA73011CA2CEA;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		080E96DAFE201CDB7F000001 = {
+			fileRef = 2A37F4B6FDCFA73011CA2CEA;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		080E96DBFE201CDB7F000001 = {
+			fileRef = 2A37F4B4FDCFA73011CA2CEA;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		089C165FFE840EACC02AAC07 = {
+			children = (
+				089C1660FE840EACC02AAC07,
+			);
+			isa = PBXVariantGroup;
+			name = InfoPlist.strings;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		089C1660FE840EACC02AAC07 = {
+			fileEncoding = 10;
+			isa = PBXFileReference;
+			lastKnownFileType = text.plist.strings;
+			name = English;
+			path = English.lproj/InfoPlist.strings;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		089C1661FE840EACC02AAC07 = {
+			fileRef = 089C165FFE840EACC02AAC07;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+//080
+//081
+//082
+//083
+//084
+//100
+//101
+//102
+//103
+//104
+		1058C7A6FEA54F5311CA2CBB = {
+			children = (
+				1058C7A7FEA54F5311CA2CBB,
+				771F52CF0415216300CAA083,
+				771F52D00415216300CAA083,
+				771F52D10415216300CAA083,
+				771F52D20415216300CAA083,
+			);
+			isa = PBXGroup;
+			name = "Linked Frameworks";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		1058C7A7FEA54F5311CA2CBB = {
+			fallbackIsa = PBXFileReference;
+			isa = PBXFrameworkReference;
+			lastKnownFileType = wrapper.framework;
+			name = Cocoa.framework;
+			path = /System/Library/Frameworks/Cocoa.framework;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		1058C7A8FEA54F5311CA2CBB = {
+			children = (
+				2A37F4C5FDCFA73011CA2CEA,
+				2A37F4C4FDCFA73011CA2CEA,
+			);
+			isa = PBXGroup;
+			name = "Other Frameworks";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		1058C7A9FEA54F5311CA2CBB = {
+			fileRef = 1058C7A7FEA54F5311CA2CBB;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+//100
+//101
+//102
+//103
+//104
+//170
+//171
+//172
+//173
+//174
+		1758732AFF379DA111CA2CBB = {
+			explicitFileType = wrapper.application;
+			fallbackIsa = PBXFileReference;
+			isa = PBXApplicationReference;
+			path = Scriptorium.app;
+			refType = 3;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+//170
+//171
+//172
+//173
+//174
+//190
+//191
+//192
+//193
+//194
+		19C28FB0FE9D524F11CA2CBB = {
+			children = (
+				1758732AFF379DA111CA2CBB,
+				772D4B7004027D130005D520,
+			);
+			isa = PBXGroup;
+			name = Products;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+//190
+//191
+//192
+//193
+//194
+//2A0
+//2A1
+//2A2
+//2A3
+//2A4
+		2A37F4A9FDCFA73011CA2CEA = {
+			buildSettings = {
+			};
+			buildStyles = (
+				4A9504D0FFE6A4CB11CA0CBA,
+				4A9504D1FFE6A4CB11CA0CBA,
+				77FDC68C04B9368100D2B79F,
+			);
+			hasScannedForEncodings = 1;
+			isa = PBXProject;
+			mainGroup = 2A37F4AAFDCFA73011CA2CEA;
+			projectDirPath = "";
+			targets = (
+				2A37F4C6FDCFA73011CA2CEA,
+				772D4B6F04027D130005D520,
+			);
+		};
+		2A37F4AAFDCFA73011CA2CEA = {
+			children = (
+				772D4BF204027EF70005D520,
+				772D4B6904027CEB0005D520,
+				2A37F4B8FDCFA73011CA2CEA,
+				2A37F4C3FDCFA73011CA2CEA,
+				19C28FB0FE9D524F11CA2CBB,
+			);
+			isa = PBXGroup;
+			name = Scriptorium;
+			path = "";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		2A37F4B4FDCFA73011CA2CEA = {
+			children = (
+				2A37F4B5FDCFA73011CA2CEA,
+			);
+			isa = PBXVariantGroup;
+			name = ScriptoriumDocument.nib;
+			path = "";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		2A37F4B5FDCFA73011CA2CEA = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.nib;
+			name = ScriptoriumDocument.nib;
+			path = English.lproj/ScriptoriumDocument.nib;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		2A37F4B6FDCFA73011CA2CEA = {
+			children = (
+				2A37F4B7FDCFA73011CA2CEA,
+			);
+			isa = PBXVariantGroup;
+			name = MainMenu.nib;
+			path = "";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		2A37F4B7FDCFA73011CA2CEA = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.nib;
+			name = English;
+			path = English.lproj/MainMenu.nib;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		2A37F4B8FDCFA73011CA2CEA = {
+			children = (
+				2A37F4B9FDCFA73011CA2CEA,
+				2A37F4B6FDCFA73011CA2CEA,
+				2A37F4B4FDCFA73011CA2CEA,
+				F50C033003928AD4013B7838,
+				089C165FFE840EACC02AAC07,
+				778E16D103D673AF00424022,
+				772D4BF304027F1D0005D520,
+				772D4BF404027F1D0005D520,
+				772D4C1804027F1D0005D520,
+				772D4C1904027F1D0005D520,
+				772D4C1A04027F1D0005D520,
+				772D4C1B04027F1D0005D520,
+				772D4C1C04027F1D0005D520,
+				772D4C1D04027F1D0005D520,
+				772D4C1E04027F1D0005D520,
+				772D4C1F04027F1D0005D520,
+			);
+			isa = PBXGroup;
+			name = Resources;
+			path = "";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		2A37F4B9FDCFA73011CA2CEA = {
+			children = (
+				2A37F4BAFDCFA73011CA2CEA,
+			);
+			isa = PBXVariantGroup;
+			name = Credits.rtf;
+			path = "";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		2A37F4BAFDCFA73011CA2CEA = {
+			isa = PBXFileReference;
+			lastKnownFileType = text.rtf;
+			name = English;
+			path = English.lproj/Credits.rtf;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		2A37F4C3FDCFA73011CA2CEA = {
+			children = (
+				1058C7A6FEA54F5311CA2CBB,
+				1058C7A8FEA54F5311CA2CBB,
+			);
+			isa = PBXGroup;
+			name = Frameworks;
+			path = "";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		2A37F4C4FDCFA73011CA2CEA = {
+			fallbackIsa = PBXFileReference;
+			isa = PBXFrameworkReference;
+			lastKnownFileType = wrapper.framework;
+			name = AppKit.framework;
+			path = /System/Library/Frameworks/AppKit.framework;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		2A37F4C5FDCFA73011CA2CEA = {
+			fallbackIsa = PBXFileReference;
+			isa = PBXFrameworkReference;
+			lastKnownFileType = wrapper.framework;
+			name = Foundation.framework;
+			path = /System/Library/Frameworks/Foundation.framework;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		2A37F4C6FDCFA73011CA2CEA = {
+			buildPhases = (
+				2A37F4C7FDCFA73011CA2CEA,
+				2A37F4C9FDCFA73011CA2CEA,
+				2A37F4CEFDCFA73011CA2CEA,
+				F50E54E20382E1B001323D1E,
+				F50E54E70382FB6101323D1E,
+				2A37F4D1FDCFA73011CA2CEA,
+			);
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "/Users/tritchey/Projects/RedRome/libxml2/macosx/build /Users/tritchey/Projects/RedRome/Scriptorium/Frameworks";
+				HEADER_SEARCH_PATHS = "";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = "";
+				OPTIMIZATION_CFLAGS = "-O0";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "-bind_at_load";
+				PREBINDING = NO;
+				PRODUCT_NAME = Scriptorium;
+				SECTORDER_FLAGS = "";
+				USE_GCC3_PFE_SUPPORT = YES;
+				WARNING_CFLAGS = "-Wmost -Wno-four-char-constants -Wno-unknown-pragmas";
+				WRAPPER_EXTENSION = app;
+			};
+			dependencies = (
+			);
+			isa = PBXApplicationTarget;
+			name = Scriptorium;
+			productInstallPath = "$(HOME)/Applications";
+			productName = Scriptorium;
+			productReference = 1758732AFF379DA111CA2CBB;
+			productSettingsXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+<!DOCTYPE plist PUBLIC \"-//Apple Computer//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">
+<plist version=\"1.0\">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleDocumentTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeExtensions</key>
+			<array>
+				<string>xml</string>
+				<string>plist</string>
+			</array>
+			<key>CFBundleTypeIconFile</key>
+			<string>ScriptoriumDocument.icns</string>
+			<key>CFBundleTypeName</key>
+			<string>DocumentType</string>
+			<key>CFBundleTypeOSTypes</key>
+			<array>
+				<string>????</string>
+			</array>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>NSDocumentClass</key>
+			<string>ScriptoriumDocument</string>
+		</dict>
+	</array>
+	<key>CFBundleExecutable</key>
+	<string>Scriptorium</string>
+	<key>CFBundleIconFile</key>
+	<string>ScriptoriumApplication.icns</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>0.1</string>
+	<key>NSMainNibFile</key>
+	<string>MainMenu</string>
+	<key>NSPrincipalClass</key>
+	<string>NSApplication</string>
+</dict>
+</plist>
+";
+		};
+		2A37F4C7FDCFA73011CA2CEA = {
+			buildActionMask = 2147483647;
+			files = (
+				772D4C7E04027FAD0005D520,
+				772D4C8204027FAD0005D520,
+				772D4C8404027FAD0005D520,
+				772D4C8604027FAD0005D520,
+				772D4C8804027FAD0005D520,
+				772D4C8B04027FAD0005D520,
+				772D4C9B04027FAD0005D520,
+				772D4C9F04027FAD0005D520,
+				772D4CA104027FAD0005D520,
+				772D4CA304027FAD0005D520,
+				772D4CA504027FAD0005D520,
+				772D4CA704027FAD0005D520,
+				772D4CAA04027FAD0005D520,
+				772D4CAC04027FAD0005D520,
+				771F535A0417D8F400CAA083,
+				77FADB22042276D500A80064,
+				77FADB26042276FC00A80064,
+				77FADB2A0422774800A80064,
+				77FADB2E042277A300A80064,
+				77FADB32042277C600A80064,
+				77FADB36042277D000A80064,
+				77FADB3A042277DC00A80064,
+				7789E7570431640600A9CC68,
+				7789E7580431640600A9CC68,
+				7789E7590431640700A9CC68,
+				7789E75A0431640700A9CC68,
+				7789E75B0431641000A9CC68,
+				7789E75C0431649D00A9CC68,
+				777A2AD5044F59CD00A80065,
+				777A2AD9044F5A5000A80065,
+				777A2ADD044F5AA600A80065,
+				77F7C6040493975D00759C70,
+			);
+			isa = PBXHeadersBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A37F4C9FDCFA73011CA2CEA = {
+			buildActionMask = 2147483647;
+			files = (
+				080E96D9FE201CDB7F000001,
+				080E96DAFE201CDB7F000001,
+				080E96DBFE201CDB7F000001,
+				089C1661FE840EACC02AAC07,
+				772D4C2004027F1D0005D520,
+				772D4C2104027F1D0005D520,
+				772D4C2204027F1D0005D520,
+				772D4C2304027F1D0005D520,
+				772D4C2404027F1D0005D520,
+				772D4C2504027F1D0005D520,
+				772D4C2604027F1D0005D520,
+				772D4C2704027F1D0005D520,
+				772D4C2804027F1D0005D520,
+				772D4C2904027F1D0005D520,
+				772D4C2A04027F1D0005D520,
+				772D4C2B04027F1D0005D520,
+				772D4C2C04027F1D0005D520,
+				772D4C2D04027F1D0005D520,
+				772D4C2E04027F1D0005D520,
+				772D4C2F04027F1D0005D520,
+				772D4C3004027F1D0005D520,
+				772D4C3104027F1D0005D520,
+				772D4C3204027F1D0005D520,
+				772D4C3304027F1D0005D520,
+				772D4C3404027F1D0005D520,
+				772D4C3504027F1D0005D520,
+				772D4C3604027F1D0005D520,
+				772D4C3704027F1D0005D520,
+				772D4C3804027F1D0005D520,
+				772D4C3904027F1D0005D520,
+				772D4C3A04027F1D0005D520,
+				772D4C3B04027F1D0005D520,
+				772D4C3C04027F1D0005D520,
+				772D4C3D04027F1D0005D520,
+				772D4C3E04027F1D0005D520,
+				772D4C3F04027F1D0005D520,
+				772D4C4004027F1D0005D520,
+				772D4C4104027F1D0005D520,
+				772D4C4204027F1D0005D520,
+				772D4C4304027F1D0005D520,
+				772D4C4404027F1D0005D520,
+				772D4C4504027F1D0005D520,
+				772D4C4604027F1D0005D520,
+				772D4C4704027F1D0005D520,
+				772D4C4804027F1D0005D520,
+				772D4C4904027F1D0005D520,
+				77E0A00A0403DD6500B7BB24,
+			);
+			isa = PBXResourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A37F4CEFDCFA73011CA2CEA = {
+			buildActionMask = 2147483647;
+			files = (
+				772D4C7F04027FAD0005D520,
+				772D4C8304027FAD0005D520,
+				772D4C8504027FAD0005D520,
+				772D4C8704027FAD0005D520,
+				772D4C8904027FAD0005D520,
+				772D4C8A04027FAD0005D520,
+				772D4C9604027FAD0005D520,
+				772D4C9C04027FAD0005D520,
+				772D4CA204027FAD0005D520,
+				772D4CA404027FAD0005D520,
+				772D4CA604027FAD0005D520,
+				772D4CA804027FAD0005D520,
+				772D4CAB04027FAD0005D520,
+				772D4CAD04027FAD0005D520,
+				77E0A00B0403DD6800B7BB24,
+				771F535B0417D8F400CAA083,
+				77FADB23042276D500A80064,
+				77FADB27042276FC00A80064,
+				77FADB2B0422774800A80064,
+				77FADB2F042277A300A80064,
+				77FADB33042277C600A80064,
+				77FADB37042277D000A80064,
+				77FADB3B042277DC00A80064,
+				7789E7530431640100A9CC68,
+				7789E7540431640200A9CC68,
+				7789E7550431640200A9CC68,
+				7789E7560431640300A9CC68,
+				7789E75D0431649F00A9CC68,
+				7789E75E0431685500A9CC68,
+				777A2AD6044F59CD00A80065,
+				777A2ADA044F5A5000A80065,
+				777A2ADE044F5AA600A80065,
+				77F7C6050493975D00759C70,
+			);
+			isa = PBXSourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A37F4D1FDCFA73011CA2CEA = {
+			buildActionMask = 2147483647;
+			files = (
+				1058C7A9FEA54F5311CA2CBB,
+				772D4B7704027D770005D520,
+				771F52D80415216300CAA083,
+				771F52D90415216300CAA083,
+			);
+			isa = PBXFrameworksBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+//2A0
+//2A1
+//2A2
+//2A3
+//2A4
+//4A0
+//4A1
+//4A2
+//4A3
+//4A4
+		4A9504D0FFE6A4CB11CA0CBA = {
+			buildRules = (
+			);
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				NSDebugEnabled = YES;
+				NSZombieEnabled = YES;
+				OPTIMIZATION_CFLAGS = "-O0";
+				ZERO_LINK = YES;
+			};
+			isa = PBXBuildStyle;
+			name = Development;
+		};
+		4A9504D1FFE6A4CB11CA0CBA = {
+			buildRules = (
+			);
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				ZERO_LINK = NO;
+			};
+			isa = PBXBuildStyle;
+			name = Deployment;
+		};
+//4A0
+//4A1
+//4A2
+//4A3
+//4A4
+//770
+//771
+//772
+//773
+//774
+		771441AE0406760100539AC6 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = XMLText.h;
+			path = RRXML/XMLText.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		771441AF0406760100539AC6 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			name = XMLText.m;
+			path = RRXML/XMLText.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		771441B00406760100539AC6 = {
+			fileRef = 771441AE0406760100539AC6;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		771441B10406760100539AC6 = {
+			fileRef = 771441AF0406760100539AC6;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		771441B20406767100539AC6 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = XMLLayoutManager.h;
+			path = Scriptorium/XMLLayoutManager.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		771441B30406767100539AC6 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			name = XMLLayoutManager.m;
+			path = Scriptorium/XMLLayoutManager.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		771441B6040676AB00539AC6 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = XMLCDATA.h;
+			path = RRXML/XMLCDATA.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		771441B7040676AB00539AC6 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			name = XMLCDATA.m;
+			path = RRXML/XMLCDATA.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		771441B8040676AB00539AC6 = {
+			fileRef = 771441B6040676AB00539AC6;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		771441B9040676AB00539AC6 = {
+			fileRef = 771441B7040676AB00539AC6;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		771441BA040676D900539AC6 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = XMLComment.h;
+			path = RRXML/XMLComment.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		771441BB040676D900539AC6 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			name = XMLComment.m;
+			path = RRXML/XMLComment.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		771441BC040676D900539AC6 = {
+			fileRef = 771441BA040676D900539AC6;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		771441BD040676D900539AC6 = {
+			fileRef = 771441BB040676D900539AC6;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		771441BE0406770F00539AC6 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = XMLEntity.h;
+			path = RRXML/XMLEntity.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		771441BF0406770F00539AC6 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			name = XMLEntity.m;
+			path = RRXML/XMLEntity.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		771441C00406770F00539AC6 = {
+			fileRef = 771441BE0406770F00539AC6;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		771441C10406770F00539AC6 = {
+			fileRef = 771441BF0406770F00539AC6;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		771F52CF0415216300CAA083 = {
+			fallbackIsa = PBXFileReference;
+			isa = PBXFrameworkReference;
+			lastKnownFileType = wrapper.framework;
+			name = libexslt.framework;
+			path = Frameworks/libexslt.framework;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		771F52D00415216300CAA083 = {
+			fallbackIsa = PBXFileReference;
+			isa = PBXFrameworkReference;
+			lastKnownFileType = wrapper.framework;
+			name = libiconv.framework;
+			path = Frameworks/libiconv.framework;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		771F52D10415216300CAA083 = {
+			fallbackIsa = PBXFileReference;
+			isa = PBXFrameworkReference;
+			lastKnownFileType = wrapper.framework;
+			name = libxml.framework;
+			path = Frameworks/libxml.framework;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		771F52D20415216300CAA083 = {
+			fallbackIsa = PBXFileReference;
+			isa = PBXFrameworkReference;
+			lastKnownFileType = wrapper.framework;
+			name = libxslt.framework;
+			path = Frameworks/libxslt.framework;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		771F52D40415216300CAA083 = {
+			fileRef = 771F52D00415216300CAA083;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		771F52D50415216300CAA083 = {
+			fileRef = 771F52D10415216300CAA083;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		771F52D80415216300CAA083 = {
+			fileRef = 771F52D00415216300CAA083;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		771F52D90415216300CAA083 = {
+			fileRef = 771F52D10415216300CAA083;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		771F52EB041521A000CAA083 = {
+			fileRef = 771F52CF0415216300CAA083;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		771F52EC041521A000CAA083 = {
+			fileRef = 771F52D00415216300CAA083;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		771F52ED041521A000CAA083 = {
+			fileRef = 771F52D10415216300CAA083;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		771F52EE041521A000CAA083 = {
+			fileRef = 771F52D20415216300CAA083;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		771F53580417D8F400CAA083 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = XMLDisplayNode.h;
+			path = Scriptorium/XMLDisplayNode.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		771F53590417D8F400CAA083 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			name = XMLDisplayNode.m;
+			path = Scriptorium/XMLDisplayNode.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		771F535A0417D8F400CAA083 = {
+			fileRef = 771F53580417D8F400CAA083;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		771F535B0417D8F400CAA083 = {
+			fileRef = 771F53590417D8F400CAA083;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		772D4B6904027CEB0005D520 = {
+			children = (
+				772D4C4C04027F910005D520,
+				772D4C4D04027F970005D520,
+			);
+			isa = PBXGroup;
+			name = RRXML;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		772D4B6A04027D130005D520 = {
+			buildActionMask = 2147483647;
+			files = (
+				772D4CBA040280170005D520,
+				772D4CC3040280840005D520,
+				772D4CC70402809F0005D520,
+				772D4CEF040282930005D520,
+				772D4D240402BAD20005D520,
+				772D4D2704033D980005D520,
+				771441B00406760100539AC6,
+				771441B8040676AB00539AC6,
+				771441BC040676D900539AC6,
+				771441C00406770F00539AC6,
+			);
+			isa = PBXHeadersBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		772D4B6B04027D130005D520 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXResourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		772D4B6C04027D130005D520 = {
+			buildActionMask = 2147483647;
+			files = (
+				772D4CBE040280190005D520,
+				772D4CC4040280840005D520,
+				772D4CC80402809F0005D520,
+				772D4CF0040282930005D520,
+				772D4D250402BAD20005D520,
+				771441B10406760100539AC6,
+				771441B9040676AB00539AC6,
+				771441BD040676D900539AC6,
+				771441C10406770F00539AC6,
+			);
+			isa = PBXSourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		772D4B6D04027D130005D520 = {
+			buildActionMask = 2147483647;
+			files = (
+				772D4B7604027D670005D520,
+				771F52D40415216300CAA083,
+				771F52D50415216300CAA083,
+			);
+			isa = PBXFrameworksBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		772D4B6E04027D130005D520 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXRezBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		772D4B6F04027D130005D520 = {
+			buildPhases = (
+				772D4B6A04027D130005D520,
+				772D4B6B04027D130005D520,
+				772D4B6C04027D130005D520,
+				772D4B7C04027DDB0005D520,
+				772D4B6D04027D130005D520,
+				772D4B6E04027D130005D520,
+			);
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = "/Users/tritchey/Projects/RedRome/libxml2/macosx/build /Users/tritchey/Projects/RedRome/Scriptorium/Frameworks";
+				FRAMEWORK_VERSION = A;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOL_FLAGS = "";
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRINCIPAL_CLASS = "";
+				PRODUCT_NAME = RRXML;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "-Wmost -Wno-four-char-constants -Wno-unknown-pragmas";
+				WRAPPER_EXTENSION = framework;
+			};
+			dependencies = (
+			);
+			isa = PBXFrameworkTarget;
+			name = RRXML;
+			productInstallPath = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+			productName = RRXML;
+			productReference = 772D4B7004027D130005D520;
+			productSettingsXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+<!DOCTYPE plist PUBLIC \"-//Apple Computer//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">
+<plist version=\"1.0\">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string></string>
+	<key>CFBundleGetInfoString</key>
+	<string></string>
+	<key>CFBundleIconFile</key>
+	<string></string>
+	<key>CFBundleIdentifier</key>
+	<string></string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string></string>
+	<key>CFBundlePackageType</key>
+	<string>FMWK</string>
+	<key>CFBundleShortVersionString</key>
+	<string></string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>0.0.1d1</string>
+</dict>
+</plist>
+";
+		};
+		772D4B7004027D130005D520 = {
+			explicitFileType = wrapper.framework;
+			fallbackIsa = PBXFileReference;
+			isa = PBXFrameworkReference;
+			path = RRXML.framework;
+			refType = 3;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		772D4B7604027D670005D520 = {
+			fileRef = 2A37F4C5FDCFA73011CA2CEA;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		772D4B7704027D770005D520 = {
+			fileRef = 772D4B7004027D130005D520;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		772D4B7B04027DA30005D520 = {
+			fileRef = 772D4B7004027D130005D520;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		772D4B7C04027DDB0005D520 = {
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			isa = PBXCopyFilesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		772D4BF204027EF70005D520 = {
+			children = (
+				772D4C4A04027F7C0005D520,
+				772D4C4B04027F830005D520,
+			);
+			isa = PBXGroup;
+			name = Scriptorium;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		772D4BF304027F1D0005D520 = {
+			isa = PBXFileReference;
+			lastKnownFileType = image.tiff;
+			name = downArrow.tiff;
+			path = Resources/downArrow.tiff;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		772D4BF404027F1D0005D520 = {
+			children = (
+				772D4BF504027F1D0005D520,
+			);
+			isa = PBXGroup;
+			name = DTDs;
+			path = Resources/DTDs;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		772D4BF504027F1D0005D520 = {
+			children = (
+				772D4BF604027F1D0005D520,
+				772D4BF704027F1D0005D520,
+				772D4BF804027F1D0005D520,
+				772D4BF904027F1D0005D520,
+				772D4BFA04027F1D0005D520,
+				772D4BFB04027F1D0005D520,
+				772D4BFC04027F1D0005D520,
+				772D4BFD04027F1D0005D520,
+				772D4BFE04027F1D0005D520,
+				772D4BFF04027F1D0005D520,
+				772D4C0004027F1D0005D520,
+				772D4C0104027F1D0005D520,
+				772D4C0204027F1D0005D520,
+				772D4C1604027F1D0005D520,
+				772D4C1704027F1D0005D520,
+			);
+			isa = PBXGroup;
+			path = "docbook-4.2";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		772D4BF604027F1D0005D520 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = text.plist.xml;
+			path = calstblx.dtd;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		772D4BF704027F1D0005D520 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = text;
+			path = catalog;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		772D4BF804027F1D0005D520 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = text.plist.xml;
+			path = catalog.xml;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		772D4BF904027F1D0005D520 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = text;
+			path = ChangeLog;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		772D4BFA04027F1D0005D520 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = text;
+			path = dbcentx.mod;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		772D4BFB04027F1D0005D520 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = text;
+			path = dbgenent.mod;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		772D4BFC04027F1D0005D520 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = text;
+			path = dbhierx.mod;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		772D4BFD04027F1D0005D520 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = text.plist.xml;
+			path = dbmathml.dtd;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		772D4BFE04027F1D0005D520 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = text;
+			path = dbnotnx.mod;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		772D4BFF04027F1D0005D520 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = text;
+			path = dbpoolx.mod;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		772D4C0004027F1D0005D520 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = text;
+			path = docbook.cat;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		772D4C0104027F1D0005D520 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = text.plist.xml;
+			path = docbookx.dtd;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		772D4C0204027F1D0005D520 = {
+			children = (
+				772D4C0304027F1D0005D520,
+				772D4C0404027F1D0005D520,
+				772D4C0504027F1D0005D520,
+				772D4C0604027F1D0005D520,
+				772D4C0704027F1D0005D520,
+				772D4C0804027F1D0005D520,
+				772D4C0904027F1D0005D520,
+				772D4C0A04027F1D0005D520,
+				772D4C0B04027F1D0005D520,
+				772D4C0C04027F1D0005D520,
+				772D4C0D04027F1D0005D520,
+				772D4C0E04027F1D0005D520,
+				772D4C0F04027F1D0005D520,
+				772D4C1004027F1D0005D520,
+				772D4C1104027F1D0005D520,
+				772D4C1204027F1D0005D520,
+				772D4C1304027F1D0005D520,
+				772D4C1404027F1D0005D520,
+				772D4C1504027F1D0005D520,
+			);
+			isa = PBXGroup;
+			path = ent;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		772D4C0304027F1D0005D520 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = text;
+			path = "iso-amsa.ent";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		772D4C0404027F1D0005D520 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = text;
+			path = "iso-amsb.ent";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		772D4C0504027F1D0005D520 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = text;
+			path = "iso-amsc.ent";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		772D4C0604027F1D0005D520 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = text;
+			path = "iso-amsn.ent";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		772D4C0704027F1D0005D520 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = text;
+			path = "iso-amso.ent";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		772D4C0804027F1D0005D520 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = text;
+			path = "iso-amsr.ent";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		772D4C0904027F1D0005D520 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = text;
+			path = "iso-box.ent";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		772D4C0A04027F1D0005D520 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = text;
+			path = "iso-cyr1.ent";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		772D4C0B04027F1D0005D520 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = text;
+			path = "iso-cyr2.ent";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		772D4C0C04027F1D0005D520 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = text;
+			path = "iso-dia.ent";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		772D4C0D04027F1D0005D520 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = text;
+			path = "iso-grk1.ent";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		772D4C0E04027F1D0005D520 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = text;
+			path = "iso-grk2.ent";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		772D4C0F04027F1D0005D520 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = text;
+			path = "iso-grk3.ent";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		772D4C1004027F1D0005D520 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = text;
+			path = "iso-grk4.ent";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		772D4C1104027F1D0005D520 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = text;
+			path = "iso-lat1.ent";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		772D4C1204027F1D0005D520 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = text;
+			path = "iso-lat2.ent";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		772D4C1304027F1D0005D520 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = text;
+			path = "iso-num.ent";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		772D4C1404027F1D0005D520 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = text;
+			path = "iso-pub.ent";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		772D4C1504027F1D0005D520 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = text;
+			path = "iso-tech.ent";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		772D4C1604027F1D0005D520 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = text;
+			path = README;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		772D4C1704027F1D0005D520 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = text.plist.xml;
+			path = soextblx.dtd;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		772D4C1804027F1D0005D520 = {
+			isa = PBXFileReference;
+			lastKnownFileType = image.tiff;
+			name = elementPreferences.tiff;
+			path = Resources/elementPreferences.tiff;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		772D4C1904027F1D0005D520 = {
+			isa = PBXFileReference;
+			lastKnownFileType = image.tiff;
+			name = EntityIcon.tiff;
+			path = Resources/EntityIcon.tiff;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		772D4C1A04027F1D0005D520 = {
+			isa = PBXFileReference;
+			lastKnownFileType = image.tiff;
+			name = formatting.tiff;
+			path = Resources/formatting.tiff;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		772D4C1B04027F1D0005D520 = {
+			isa = PBXFileReference;
+			lastKnownFileType = image.tiff;
+			name = outlineDrawer.tiff;
+			path = Resources/outlineDrawer.tiff;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		772D4C1C04027F1D0005D520 = {
+			isa = PBXFileReference;
+			lastKnownFileType = image.icns;
+			name = ScriptoriumApplication.icns;
+			path = Resources/ScriptoriumApplication.icns;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		772D4C1D04027F1D0005D520 = {
+			isa = PBXFileReference;
+			lastKnownFileType = image.icns;
+			name = ScriptoriumDocument.icns;
+			path = Resources/ScriptoriumDocument.icns;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		772D4C1E04027F1D0005D520 = {
+			isa = PBXFileReference;
+			lastKnownFileType = image.tiff;
+			name = Untitled.tiff;
+			path = Resources/Untitled.tiff;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		772D4C1F04027F1D0005D520 = {
+			isa = PBXFileReference;
+			lastKnownFileType = image.tiff;
+			name = upArrow.tiff;
+			path = Resources/upArrow.tiff;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		772D4C2004027F1D0005D520 = {
+			fileRef = 772D4BF304027F1D0005D520;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		772D4C2104027F1D0005D520 = {
+			fileRef = 772D4BF604027F1D0005D520;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		772D4C2204027F1D0005D520 = {
+			fileRef = 772D4BF704027F1D0005D520;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		772D4C2304027F1D0005D520 = {
+			fileRef = 772D4BF804027F1D0005D520;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		772D4C2404027F1D0005D520 = {
+			fileRef = 772D4BF904027F1D0005D520;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		772D4C2504027F1D0005D520 = {
+			fileRef = 772D4BFA04027F1D0005D520;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		772D4C2604027F1D0005D520 = {
+			fileRef = 772D4BFB04027F1D0005D520;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		772D4C2704027F1D0005D520 = {
+			fileRef = 772D4BFC04027F1D0005D520;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		772D4C2804027F1D0005D520 = {
+			fileRef = 772D4BFD04027F1D0005D520;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		772D4C2904027F1D0005D520 = {
+			fileRef = 772D4BFE04027F1D0005D520;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		772D4C2A04027F1D0005D520 = {
+			fileRef = 772D4BFF04027F1D0005D520;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		772D4C2B04027F1D0005D520 = {
+			fileRef = 772D4C0004027F1D0005D520;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		772D4C2C04027F1D0005D520 = {
+			fileRef = 772D4C0104027F1D0005D520;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		772D4C2D04027F1D0005D520 = {
+			fileRef = 772D4C0304027F1D0005D520;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		772D4C2E04027F1D0005D520 = {
+			fileRef = 772D4C0404027F1D0005D520;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		772D4C2F04027F1D0005D520 = {
+			fileRef = 772D4C0504027F1D0005D520;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		772D4C3004027F1D0005D520 = {
+			fileRef = 772D4C0604027F1D0005D520;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		772D4C3104027F1D0005D520 = {
+			fileRef = 772D4C0704027F1D0005D520;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		772D4C3204027F1D0005D520 = {
+			fileRef = 772D4C0804027F1D0005D520;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		772D4C3304027F1D0005D520 = {
+			fileRef = 772D4C0904027F1D0005D520;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		772D4C3404027F1D0005D520 = {
+			fileRef = 772D4C0A04027F1D0005D520;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		772D4C3504027F1D0005D520 = {
+			fileRef = 772D4C0B04027F1D0005D520;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		772D4C3604027F1D0005D520 = {
+			fileRef = 772D4C0C04027F1D0005D520;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		772D4C3704027F1D0005D520 = {
+			fileRef = 772D4C0D04027F1D0005D520;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		772D4C3804027F1D0005D520 = {
+			fileRef = 772D4C0E04027F1D0005D520;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		772D4C3904027F1D0005D520 = {
+			fileRef = 772D4C0F04027F1D0005D520;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		772D4C3A04027F1D0005D520 = {
+			fileRef = 772D4C1004027F1D0005D520;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		772D4C3B04027F1D0005D520 = {
+			fileRef = 772D4C1104027F1D0005D520;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		772D4C3C04027F1D0005D520 = {
+			fileRef = 772D4C1204027F1D0005D520;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		772D4C3D04027F1D0005D520 = {
+			fileRef = 772D4C1304027F1D0005D520;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		772D4C3E04027F1D0005D520 = {
+			fileRef = 772D4C1404027F1D0005D520;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		772D4C3F04027F1D0005D520 = {
+			fileRef = 772D4C1504027F1D0005D520;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		772D4C4004027F1D0005D520 = {
+			fileRef = 772D4C1604027F1D0005D520;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		772D4C4104027F1D0005D520 = {
+			fileRef = 772D4C1704027F1D0005D520;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		772D4C4204027F1D0005D520 = {
+			fileRef = 772D4C1804027F1D0005D520;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		772D4C4304027F1D0005D520 = {
+			fileRef = 772D4C1904027F1D0005D520;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		772D4C4404027F1D0005D520 = {
+			fileRef = 772D4C1A04027F1D0005D520;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		772D4C4504027F1D0005D520 = {
+			fileRef = 772D4C1B04027F1D0005D520;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		772D4C4604027F1D0005D520 = {
+			fileRef = 772D4C1C04027F1D0005D520;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		772D4C4704027F1D0005D520 = {
+			fileRef = 772D4C1D04027F1D0005D520;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		772D4C4804027F1D0005D520 = {
+			fileRef = 772D4C1E04027F1D0005D520;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		772D4C4904027F1D0005D520 = {
+			fileRef = 772D4C1F04027F1D0005D520;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		772D4C4A04027F7C0005D520 = {
+			children = (
+				772D4C4E04027FAD0005D520,
+				772D4C5204027FAD0005D520,
+				772D4C5404027FAD0005D520,
+				772D4C5604027FAD0005D520,
+				772D4C5804027FAD0005D520,
+				772D4C5B04027FAD0005D520,
+				772D4C5C04027FAD0005D520,
+				772D4C5E04027FAD0005D520,
+				777A2AD3044F59CD00A80065,
+				777A2AD7044F5A5000A80065,
+				777A2ADB044F5AA600A80065,
+				772D4C6004027FAD0005D520,
+				772D4C6204027FAD0005D520,
+				772D4C6404027FAD0005D520,
+				772D4C6704027FAD0005D520,
+				772D4C6904027FAD0005D520,
+				772D4C6B04027FAD0005D520,
+				772D4C6D04027FAD0005D520,
+				772D4C6F04027FAD0005D520,
+				772D4C7104027FAD0005D520,
+				772D4C7304027FAD0005D520,
+				772D4C7504027FAD0005D520,
+				77F7C6020493975D00759C70,
+				771F53580417D8F400CAA083,
+				77FADB20042276D500A80064,
+				77FADB24042276FC00A80064,
+				77FADB280422774800A80064,
+				77FADB2C042277A300A80064,
+				77FADB30042277C600A80064,
+				77FADB34042277D000A80064,
+				77FADB38042277DC00A80064,
+				772D4C7704027FAD0005D520,
+				771441B20406767100539AC6,
+				772D4C7A04027FAD0005D520,
+				772D4C7C04027FAD0005D520,
+			);
+			isa = PBXGroup;
+			name = Headers;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		772D4C4B04027F830005D520 = {
+			children = (
+				772D4C4F04027FAD0005D520,
+				772D4C5304027FAD0005D520,
+				772D4C5504027FAD0005D520,
+				772D4C5704027FAD0005D520,
+				772D4C5904027FAD0005D520,
+				772D4C5A04027FAD0005D520,
+				772D4C5D04027FAD0005D520,
+				772D4C5F04027FAD0005D520,
+				777A2AD4044F59CD00A80065,
+				777A2AD8044F5A5000A80065,
+				777A2ADC044F5AA600A80065,
+				772D4C6104027FAD0005D520,
+				772D4C6304027FAD0005D520,
+				772D4C6504027FAD0005D520,
+				772D4C6604027FAD0005D520,
+				772D4C6804027FAD0005D520,
+				772D4C6A04027FAD0005D520,
+				772D4C6C04027FAD0005D520,
+				772D4C6E04027FAD0005D520,
+				772D4C7004027FAD0005D520,
+				772D4C7204027FAD0005D520,
+				772D4C7404027FAD0005D520,
+				772D4C7604027FAD0005D520,
+				77F7C6030493975D00759C70,
+				771F53590417D8F400CAA083,
+				77FADB21042276D500A80064,
+				77FADB25042276FC00A80064,
+				77FADB290422774800A80064,
+				77FADB2D042277A300A80064,
+				77FADB31042277C600A80064,
+				77FADB35042277D000A80064,
+				77FADB39042277DC00A80064,
+				772D4C7804027FAD0005D520,
+				771441B30406767100539AC6,
+				772D4C7B04027FAD0005D520,
+				772D4C7D04027FAD0005D520,
+			);
+			isa = PBXGroup;
+			name = Implementation;
+			path = "";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		772D4C4C04027F910005D520 = {
+			children = (
+				772D4D2604033D980005D520,
+				772D4CAE040280080005D520,
+				772D4D220402BAD20005D520,
+				772D4CC1040280840005D520,
+				772D4CC50402809F0005D520,
+				771441AE0406760100539AC6,
+				771441B6040676AB00539AC6,
+				771441BA040676D900539AC6,
+				771441BE0406770F00539AC6,
+				772D4CED040282930005D520,
+			);
+			isa = PBXGroup;
+			name = Headers;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		772D4C4D04027F970005D520 = {
+			children = (
+				772D4CAF040280080005D520,
+				772D4D230402BAD20005D520,
+				772D4CC2040280840005D520,
+				772D4CC60402809F0005D520,
+				771441AF0406760100539AC6,
+				771441B7040676AB00539AC6,
+				771441BB040676D900539AC6,
+				771441BF0406770F00539AC6,
+				772D4CEE040282930005D520,
+			);
+			isa = PBXGroup;
+			name = Implementation;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		772D4C4E04027FAD0005D520 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = AppController.h;
+			path = Scriptorium/AppController.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		772D4C4F04027FAD0005D520 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			name = AppController.m;
+			path = Scriptorium/AppController.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		772D4C5204027FAD0005D520 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = AutoCompleteController.h;
+			path = Scriptorium/AutoCompleteController.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		772D4C5304027FAD0005D520 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			name = AutoCompleteController.m;
+			path = Scriptorium/AutoCompleteController.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		772D4C5404027FAD0005D520 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = AutoCompleteView.h;
+			path = Scriptorium/AutoCompleteView.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		772D4C5504027FAD0005D520 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			name = AutoCompleteView.m;
+			path = Scriptorium/AutoCompleteView.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		772D4C5604027FAD0005D520 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = CatalogController.h;
+			path = Scriptorium/CatalogController.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		772D4C5704027FAD0005D520 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			name = CatalogController.m;
+			path = Scriptorium/CatalogController.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		772D4C5804027FAD0005D520 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = CommandLineController.h;
+			path = Scriptorium/CommandLineController.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		772D4C5904027FAD0005D520 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			name = CommandLineController.m;
+			path = Scriptorium/CommandLineController.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		772D4C5A04027FAD0005D520 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.c;
+			name = coreDump.c;
+			path = Scriptorium/coreDump.c;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		772D4C5B04027FAD0005D520 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = coreDump.h;
+			path = Scriptorium/coreDump.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		772D4C5C04027FAD0005D520 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = DocBookOutlineNode.h;
+			path = Scriptorium/DocBookOutlineNode.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		772D4C5D04027FAD0005D520 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			name = DocBookOutlineNode.m;
+			path = Scriptorium/DocBookOutlineNode.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		772D4C5E04027FAD0005D520 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = ElementTagCell.h;
+			path = Scriptorium/ElementTagCell.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		772D4C5F04027FAD0005D520 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			name = ElementTagCell.m;
+			path = Scriptorium/ElementTagCell.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		772D4C6004027FAD0005D520 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = ElementTagController.h;
+			path = Scriptorium/ElementTagController.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		772D4C6104027FAD0005D520 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			name = ElementTagController.m;
+			path = Scriptorium/ElementTagController.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		772D4C6204027FAD0005D520 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = ElementTagView.h;
+			path = Scriptorium/ElementTagView.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		772D4C6304027FAD0005D520 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			name = ElementTagView.m;
+			path = Scriptorium/ElementTagView.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		772D4C6404027FAD0005D520 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = EntityViewController.h;
+			path = Scriptorium/EntityViewController.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		772D4C6504027FAD0005D520 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			name = EntityViewController.m;
+			path = Scriptorium/EntityViewController.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		772D4C6604027FAD0005D520 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			name = main.m;
+			path = Scriptorium/main.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		772D4C6704027FAD0005D520 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = OutlineController.h;
+			path = Scriptorium/OutlineController.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		772D4C6804027FAD0005D520 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			name = OutlineController.m;
+			path = Scriptorium/OutlineController.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		772D4C6904027FAD0005D520 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = OutlineNode.h;
+			path = Scriptorium/OutlineNode.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		772D4C6A04027FAD0005D520 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			name = OutlineNode.m;
+			path = Scriptorium/OutlineNode.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		772D4C6B04027FAD0005D520 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = PreferencesController.h;
+			path = Scriptorium/PreferencesController.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		772D4C6C04027FAD0005D520 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			name = PreferencesController.m;
+			path = Scriptorium/PreferencesController.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		772D4C6D04027FAD0005D520 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = PreferencesTagColumn.h;
+			path = Scriptorium/PreferencesTagColumn.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		772D4C6E04027FAD0005D520 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			name = PreferencesTagColumn.m;
+			path = Scriptorium/PreferencesTagColumn.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		772D4C6F04027FAD0005D520 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = PreferencesToolbarController.h;
+			path = Scriptorium/PreferencesToolbarController.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		772D4C7004027FAD0005D520 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			name = PreferencesToolbarController.m;
+			path = Scriptorium/PreferencesToolbarController.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		772D4C7104027FAD0005D520 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = ScriptoriumDocument.h;
+			path = Scriptorium/ScriptoriumDocument.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		772D4C7204027FAD0005D520 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			name = ScriptoriumDocument.m;
+			path = Scriptorium/ScriptoriumDocument.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		772D4C7304027FAD0005D520 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = ScriptoriumViewController.h;
+			path = Scriptorium/ScriptoriumViewController.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		772D4C7404027FAD0005D520 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			name = ScriptoriumViewController.m;
+			path = Scriptorium/ScriptoriumViewController.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		772D4C7504027FAD0005D520 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = ToolbarController.h;
+			path = Scriptorium/ToolbarController.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		772D4C7604027FAD0005D520 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			name = ToolbarController.m;
+			path = Scriptorium/ToolbarController.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		772D4C7704027FAD0005D520 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = XMLTextStorage.h;
+			path = Scriptorium/XMLTextStorage.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		772D4C7804027FAD0005D520 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			name = XMLTextStorage.m;
+			path = Scriptorium/XMLTextStorage.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		772D4C7A04027FAD0005D520 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = XMLTextView.h;
+			path = Scriptorium/XMLTextView.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		772D4C7B04027FAD0005D520 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			name = XMLTextView.m;
+			path = Scriptorium/XMLTextView.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		772D4C7C04027FAD0005D520 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = XMLTextViewController.h;
+			path = Scriptorium/XMLTextViewController.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		772D4C7D04027FAD0005D520 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			name = XMLTextViewController.m;
+			path = Scriptorium/XMLTextViewController.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		772D4C7E04027FAD0005D520 = {
+			fileRef = 772D4C4E04027FAD0005D520;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		772D4C7F04027FAD0005D520 = {
+			fileRef = 772D4C4F04027FAD0005D520;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		772D4C8204027FAD0005D520 = {
+			fileRef = 772D4C5204027FAD0005D520;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		772D4C8304027FAD0005D520 = {
+			fileRef = 772D4C5304027FAD0005D520;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		772D4C8404027FAD0005D520 = {
+			fileRef = 772D4C5404027FAD0005D520;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		772D4C8504027FAD0005D520 = {
+			fileRef = 772D4C5504027FAD0005D520;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		772D4C8604027FAD0005D520 = {
+			fileRef = 772D4C5604027FAD0005D520;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		772D4C8704027FAD0005D520 = {
+			fileRef = 772D4C5704027FAD0005D520;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		772D4C8804027FAD0005D520 = {
+			fileRef = 772D4C5804027FAD0005D520;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		772D4C8904027FAD0005D520 = {
+			fileRef = 772D4C5904027FAD0005D520;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		772D4C8A04027FAD0005D520 = {
+			fileRef = 772D4C5A04027FAD0005D520;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		772D4C8B04027FAD0005D520 = {
+			fileRef = 772D4C5B04027FAD0005D520;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		772D4C9604027FAD0005D520 = {
+			fileRef = 772D4C6604027FAD0005D520;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		772D4C9B04027FAD0005D520 = {
+			fileRef = 772D4C6B04027FAD0005D520;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		772D4C9C04027FAD0005D520 = {
+			fileRef = 772D4C6C04027FAD0005D520;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		772D4C9F04027FAD0005D520 = {
+			fileRef = 772D4C6F04027FAD0005D520;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		772D4CA104027FAD0005D520 = {
+			fileRef = 772D4C7104027FAD0005D520;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		772D4CA204027FAD0005D520 = {
+			fileRef = 772D4C7204027FAD0005D520;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		772D4CA304027FAD0005D520 = {
+			fileRef = 772D4C7304027FAD0005D520;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		772D4CA404027FAD0005D520 = {
+			fileRef = 772D4C7404027FAD0005D520;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		772D4CA504027FAD0005D520 = {
+			fileRef = 772D4C7504027FAD0005D520;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		772D4CA604027FAD0005D520 = {
+			fileRef = 772D4C7604027FAD0005D520;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		772D4CA704027FAD0005D520 = {
+			fileRef = 772D4C7704027FAD0005D520;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		772D4CA804027FAD0005D520 = {
+			fileRef = 772D4C7804027FAD0005D520;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		772D4CAA04027FAD0005D520 = {
+			fileRef = 772D4C7A04027FAD0005D520;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		772D4CAB04027FAD0005D520 = {
+			fileRef = 772D4C7B04027FAD0005D520;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		772D4CAC04027FAD0005D520 = {
+			fileRef = 772D4C7C04027FAD0005D520;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		772D4CAD04027FAD0005D520 = {
+			fileRef = 772D4C7D04027FAD0005D520;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		772D4CAE040280080005D520 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = XMLNode.h;
+			path = RRXML/XMLNode.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		772D4CAF040280080005D520 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			name = XMLNode.m;
+			path = RRXML/XMLNode.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		772D4CBA040280170005D520 = {
+			fileRef = 772D4CAE040280080005D520;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		772D4CBE040280190005D520 = {
+			fileRef = 772D4CAF040280080005D520;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		772D4CC1040280840005D520 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = XMLDocument.h;
+			path = RRXML/XMLDocument.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		772D4CC2040280840005D520 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			name = XMLDocument.m;
+			path = RRXML/XMLDocument.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		772D4CC3040280840005D520 = {
+			fileRef = 772D4CC1040280840005D520;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		772D4CC4040280840005D520 = {
+			fileRef = 772D4CC2040280840005D520;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		772D4CC50402809F0005D520 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = XMLElement.h;
+			path = RRXML/XMLElement.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		772D4CC60402809F0005D520 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			name = XMLElement.m;
+			path = RRXML/XMLElement.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		772D4CC70402809F0005D520 = {
+			fileRef = 772D4CC50402809F0005D520;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		772D4CC80402809F0005D520 = {
+			fileRef = 772D4CC60402809F0005D520;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		772D4CED040282930005D520 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = XMLAttribute.h;
+			path = RRXML/XMLAttribute.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		772D4CEE040282930005D520 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			name = XMLAttribute.m;
+			path = RRXML/XMLAttribute.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		772D4CEF040282930005D520 = {
+			fileRef = 772D4CED040282930005D520;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		772D4CF0040282930005D520 = {
+			fileRef = 772D4CEE040282930005D520;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		772D4D220402BAD20005D520 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = XMLDTD.h;
+			path = RRXML/XMLDTD.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		772D4D230402BAD20005D520 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			name = XMLDTD.m;
+			path = RRXML/XMLDTD.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		772D4D240402BAD20005D520 = {
+			fileRef = 772D4D220402BAD20005D520;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		772D4D250402BAD20005D520 = {
+			fileRef = 772D4D230402BAD20005D520;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		772D4D2604033D980005D520 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = RRXML.h;
+			path = RRXML/RRXML.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		772D4D2704033D980005D520 = {
+			fileRef = 772D4D2604033D980005D520;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		777A2AD3044F59CD00A80065 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = CommentTagCell.h;
+			path = Scriptorium/CommentTagCell.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		777A2AD4044F59CD00A80065 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			name = CommentTagCell.m;
+			path = Scriptorium/CommentTagCell.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		777A2AD5044F59CD00A80065 = {
+			fileRef = 777A2AD3044F59CD00A80065;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		777A2AD6044F59CD00A80065 = {
+			fileRef = 777A2AD4044F59CD00A80065;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		777A2AD7044F5A5000A80065 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = EntityTagCell.h;
+			path = Scriptorium/EntityTagCell.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		777A2AD8044F5A5000A80065 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			name = EntityTagCell.m;
+			path = Scriptorium/EntityTagCell.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		777A2AD9044F5A5000A80065 = {
+			fileRef = 777A2AD7044F5A5000A80065;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		777A2ADA044F5A5000A80065 = {
+			fileRef = 777A2AD8044F5A5000A80065;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		777A2ADB044F5AA600A80065 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = CDATATagCell.h;
+			path = Scriptorium/CDATATagCell.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		777A2ADC044F5AA600A80065 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			name = CDATATagCell.m;
+			path = Scriptorium/CDATATagCell.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		777A2ADD044F5AA600A80065 = {
+			fileRef = 777A2ADB044F5AA600A80065;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		777A2ADE044F5AA600A80065 = {
+			fileRef = 777A2ADC044F5AA600A80065;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		7789E7530431640100A9CC68 = {
+			fileRef = 772D4C5F04027FAD0005D520;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		7789E7540431640200A9CC68 = {
+			fileRef = 772D4C6104027FAD0005D520;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		7789E7550431640200A9CC68 = {
+			fileRef = 772D4C6304027FAD0005D520;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		7789E7560431640300A9CC68 = {
+			fileRef = 772D4C6504027FAD0005D520;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		7789E7570431640600A9CC68 = {
+			fileRef = 772D4C5E04027FAD0005D520;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		7789E7580431640600A9CC68 = {
+			fileRef = 772D4C6004027FAD0005D520;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		7789E7590431640700A9CC68 = {
+			fileRef = 772D4C6204027FAD0005D520;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		7789E75A0431640700A9CC68 = {
+			fileRef = 772D4C6404027FAD0005D520;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		7789E75B0431641000A9CC68 = {
+			fileRef = 772D4C6D04027FAD0005D520;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		7789E75C0431649D00A9CC68 = {
+			fileRef = 771441B20406767100539AC6;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		7789E75D0431649F00A9CC68 = {
+			fileRef = 771441B30406767100539AC6;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		7789E75E0431685500A9CC68 = {
+			fileRef = 772D4C6E04027FAD0005D520;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		778E16D103D673AF00424022 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = text;
+			path = NOTES;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		77E0A00A0403DD6500B7BB24 = {
+			fileRef = F50C033003928AD4013B7838;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		77E0A00B0403DD6800B7BB24 = {
+			fileRef = 772D4C7004027FAD0005D520;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		77F7C6020493975D00759C70 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = XMLDisplayString.h;
+			path = Scriptorium/XMLDisplayString.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		77F7C6030493975D00759C70 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			name = XMLDisplayString.m;
+			path = Scriptorium/XMLDisplayString.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		77F7C6040493975D00759C70 = {
+			fileRef = 77F7C6020493975D00759C70;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		77F7C6050493975D00759C70 = {
+			fileRef = 77F7C6030493975D00759C70;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		77FADB20042276D500A80064 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = XMLDocumentDisplayNode.h;
+			path = Scriptorium/XMLDocumentDisplayNode.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		77FADB21042276D500A80064 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			name = XMLDocumentDisplayNode.m;
+			path = Scriptorium/XMLDocumentDisplayNode.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		77FADB22042276D500A80064 = {
+			fileRef = 77FADB20042276D500A80064;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		77FADB23042276D500A80064 = {
+			fileRef = 77FADB21042276D500A80064;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		77FADB24042276FC00A80064 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = XMLElementDisplayNode.h;
+			path = Scriptorium/XMLElementDisplayNode.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		77FADB25042276FC00A80064 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			name = XMLElementDisplayNode.m;
+			path = Scriptorium/XMLElementDisplayNode.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		77FADB26042276FC00A80064 = {
+			fileRef = 77FADB24042276FC00A80064;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		77FADB27042276FC00A80064 = {
+			fileRef = 77FADB25042276FC00A80064;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		77FADB280422774800A80064 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = XMLTextDisplayNode.h;
+			path = Scriptorium/XMLTextDisplayNode.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		77FADB290422774800A80064 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			name = XMLTextDisplayNode.m;
+			path = Scriptorium/XMLTextDisplayNode.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		77FADB2A0422774800A80064 = {
+			fileRef = 77FADB280422774800A80064;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		77FADB2B0422774800A80064 = {
+			fileRef = 77FADB290422774800A80064;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		77FADB2C042277A300A80064 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = XMLCDATADisplayNode.h;
+			path = Scriptorium/XMLCDATADisplayNode.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		77FADB2D042277A300A80064 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			name = XMLCDATADisplayNode.m;
+			path = Scriptorium/XMLCDATADisplayNode.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		77FADB2E042277A300A80064 = {
+			fileRef = 77FADB2C042277A300A80064;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		77FADB2F042277A300A80064 = {
+			fileRef = 77FADB2D042277A300A80064;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		77FADB30042277C600A80064 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = XMLCommentDisplayNode.h;
+			path = Scriptorium/XMLCommentDisplayNode.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		77FADB31042277C600A80064 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			name = XMLCommentDisplayNode.m;
+			path = Scriptorium/XMLCommentDisplayNode.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		77FADB32042277C600A80064 = {
+			fileRef = 77FADB30042277C600A80064;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		77FADB33042277C600A80064 = {
+			fileRef = 77FADB31042277C600A80064;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		77FADB34042277D000A80064 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = XMLEntityDisplayNode.h;
+			path = Scriptorium/XMLEntityDisplayNode.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		77FADB35042277D000A80064 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			name = XMLEntityDisplayNode.m;
+			path = Scriptorium/XMLEntityDisplayNode.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		77FADB36042277D000A80064 = {
+			fileRef = 77FADB34042277D000A80064;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		77FADB37042277D000A80064 = {
+			fileRef = 77FADB35042277D000A80064;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		77FADB38042277DC00A80064 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = XMLAttributeDisplayNode.h;
+			path = Scriptorium/XMLAttributeDisplayNode.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		77FADB39042277DC00A80064 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			name = XMLAttributeDisplayNode.m;
+			path = Scriptorium/XMLAttributeDisplayNode.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		77FADB3A042277DC00A80064 = {
+			fileRef = 77FADB38042277DC00A80064;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		77FADB3B042277DC00A80064 = {
+			fileRef = 77FADB39042277DC00A80064;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		77FDC68C04B9368100D2B79F = {
+			buildRules = (
+			);
+			buildSettings = {
+			};
+			isa = PBXBuildStyle;
+			name = BuildStyle;
+		};
+//770
+//771
+//772
+//773
+//774
+//F50
+//F51
+//F52
+//F53
+//F54
+		F50C033003928AD4013B7838 = {
+			children = (
+				F50C033103928AD4013B7838,
+			);
+			isa = PBXVariantGroup;
+			name = Preferences.nib;
+			path = "";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F50C033103928AD4013B7838 = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.nib;
+			name = English;
+			path = English.lproj/Preferences.nib;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F50E54E20382E1B001323D1E = {
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				771F52EB041521A000CAA083,
+				771F52EC041521A000CAA083,
+				771F52ED041521A000CAA083,
+				771F52EE041521A000CAA083,
+				772D4B7B04027DA30005D520,
+			);
+			isa = PBXCopyFilesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F50E54E70382FB6101323D1E = {
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+			);
+			isa = PBXCopyFilesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+	};
+	rootObject = 2A37F4A9FDCFA73011CA2CEA;
+}
